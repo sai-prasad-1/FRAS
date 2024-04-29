@@ -5,7 +5,7 @@ import * as tf from "@tensorflow/tfjs";
 import * as tmImage from "@teachablemachine/image";
 import axios from "axios";
 
-const URL = "https://teachablemachine.withgoogle.com/models/kBHln8tnk/";
+const URL = "https://teachablemachine.withgoogle.com/models/QyYyEHbbQ/";
 
 function Tensorflow() {
   const [model, setModel] = useState<tmImage.CustomMobileNet | null>(null);
