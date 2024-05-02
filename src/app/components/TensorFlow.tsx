@@ -5,7 +5,7 @@ import * as tf from "@tensorflow/tfjs";
 import * as tmImage from "@teachablemachine/image";
 import axios from "axios";
 
-const URL = "https://teachablemachine.withgoogle.com/models/QyYyEHbbQ/";
+const URL = "https://teachablemachine.withgoogle.com/models/MmQ8628rf/";
 
 function Tensorflow() {
   const [model, setModel] = useState<tmImage.CustomMobileNet | null>(null);
@@ -51,7 +51,6 @@ function Tensorflow() {
   };
 
   const handleMarkAttendance = async () => {
-    // Make Axios request to backend with the username (maxUser)
     try {
       const response = await axios.post("YOUR_BACKEND_ENDPOINT", {
         username: maxUser,
